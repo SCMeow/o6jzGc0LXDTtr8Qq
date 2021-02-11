@@ -6,7 +6,7 @@ name: jd_crazy_joy_online
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* */6 * * *'
+    - cron: '0 0,6,12,18 * * *'
   watch:
     types: started
   repository_dispatch:
